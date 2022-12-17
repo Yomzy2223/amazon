@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  min-width: 1000px;
+}
+.to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(55, 71, 90);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  width: inherit;
+  transition: 0.3s all ease-in-out;
+}
+.to-top:hover {
+  background-color: rgba(55, 71, 90, 0.779);
+}
+.to-top p {
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}

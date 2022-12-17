@@ -1,0 +1,129 @@
+.signup-page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  background-color: white;
+}
+.signup-page span {
+  color: rgb(58, 122, 218);
+}
+.signup-page span:hover {
+  color: rgb(189, 135, 34);
+  text-decoration: underline;
+}
+.remove-link-style {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.signup {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  max-width: 24rem;
+  margin: 0 0 1rem 0;
+  /* background-color: blueviolet; */
+}
+.signup__header img {
+  object-fit: contain;
+  width: 7rem;
+  margin: 0.8rem;
+}
+.signup__main {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem 1.7rem;
+  border: 1px solid rgba(0, 0, 0, 0.149);
+  border-radius: 0.3rem;
+  width: 100%;
+  gap: 0.7rem;
+}
+.signup__main h1 {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+.signup__continue {
+  width: 98.5%;
+  height: 2rem;
+  background: linear-gradient(rgba(241, 197, 85, 0.495), rgb(241, 197, 85));
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.455);
+  margin: 0;
+  border-radius: 0.3rem;
+}
+.signup__continue:hover {
+  background: linear-gradient(rgba(241, 197, 85, 0.701), rgb(241, 197, 85));
+}
+.signup__continue:focus {
+  background: linear-gradient(rgb(241, 197, 85), rgb(241, 197, 85));
+}
+.signup__info {
+  /* background-color: green; */
+  width: inherit;
+}
+.separator {
+  height: 4px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.139),
+    rgba(0, 0, 0, 0)
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    black,
+    rgba(0, 0, 0, 0)
+  );
+}
+.signup__info p {
+  margin: 1.5rem 0 2rem 0;
+}
+.signup-main__footer {
+  /* background-color: yellow; */
+  margin: 1rem 0;
+}
+.signup-main__footer p {
+  margin: 0.2rem;
+}
+.signup__footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /* background-color: yellow; */
+  /* height: 100%; */
+  height: 7rem;
+  font-size: 0.75rem;
+}
+.signup__footer-details {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  color: rgba(0, 0, 0, 0.661);
+  height: 5rem;
+  width: inherit;
+}
+.signup__footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: inherit;
+  max-width: 20rem;
+}
+.copyright {
+  position: relative;
+  top: 2px;
+}
+.field-error {
+  position: relative;
+  top: -0.5rem;
+  color: red;
+}
+.tocenter {
+  text-align: center;
+}

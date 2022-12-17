@@ -1,0 +1,87 @@
+.products {
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  display: flex;
+  column-gap: 20px;
+  row-gap: 25px;
+  min-width: 980px;
+  margin: 25px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  min-width: 307px;
+  max-width: 380px;
+  height: 420px;
+}
+.banner__image {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  min-width: 310px;
+  height: 250px;
+  background-color: gray;
+}
+.banner__image img {
+  width: 100%;
+}
+.banner__sign-in-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  gap: 15px;
+}
+.banner__title {
+  font-size: 21px;
+  font-weight: 800;
+  margin-left: 20px;
+  width: 90%;
+  margin: 0;
+}
+.banner__sign-in {
+  border: none;
+  border-radius: 8px;
+  width: 90%;
+  height: 30px;
+  background-color: rgb(255, 216, 20);
+  text-align: center;
+  margin: 0;
+}
+
+#deals {
+  background-color: white;
+  height: 420px;
+}
+.deal-price {
+  align-self: flex-start;
+  margin: 0 10%;
+  font-size: 23px;
+  white-space: nowrap;
+}
+.deal-price p {
+  font-weight: 400;
+  margin: 0;
+}
+.deal-price sup {
+  position: relative;
+  top: 2px;
+  font-size: 13px;
+}
+.deal-info {
+  align-self: flex-start;
+  margin: 0 10%;
+}

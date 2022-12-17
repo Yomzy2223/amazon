@@ -1,0 +1,88 @@
+.footer-m {
+  position: relative;
+  height: 560px;
+  background-color: rgb(35, 47, 62);
+  width: 100%;
+}
+.footer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78%;
+}
+.footer-maindiv {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+  color: white;
+  min-width: 1000px;
+  max-width: 1200px;
+}
+.footer-submain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22%;
+  /* background-color: black; */
+  border-top: 1px solid rgba(156, 166, 176, 0.29);
+}
+.footer-submain > div {
+  /* position: absolute; */
+  bottom: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 75%;
+  /* background-color: yellow; */
+}
+.footer-submain img {
+  width: 90px;
+  object-fit: contain;
+}
+.footer-submain button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  background-color: transparent;
+  width: 142px;
+  height: 35px;
+  border: 1px solid rgba(192, 199, 207, 0.722);
+  border-radius: 3px;
+  color: rgb(182, 187, 189);
+  transition: 0.3s all ease-in-out;
+}
+.footer-submain button:hover {
+  border: 1px solid rgb(227, 230, 232);
+  color: rgb(227, 230, 232);
+}
+.footer-submain button img {
+  width: 20px;
+}
+.footer-submain__amazon-logo {
+  margin-right: 100px;
+}
+.footer__languages {
+  position: relative;
+}
+#languages {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 250px;
+  height: 0px;
+  top: 35px;
+  border-radius: 3px;
+  transition: 0.5s all ease-in-out;
+  overflow: hidden;
+}
+.footer__languages:hover #languages {
+  display: block;
+  height: 350px;
+  visibility: visible;
+}

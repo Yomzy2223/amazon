@@ -1,0 +1,242 @@
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #131921;
+  height: 60px;
+  width: max-content;
+  /* width: 100%; */
+}
+.header__content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: stretch;
+  background-color: #131921;
+  height: inherit;
+  width: 98%;
+}
+.header-modal {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 8000px;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.455);
+}
+
+.navlogo {
+  object-fit: contain;
+  width: 99px;
+  height: 49px;
+}
+.navlogo-container {
+  display: flex;
+  flex: 0 0 0;
+  /* background-color: blue; */
+  width: fit-content;
+  padding: 1px 8px 0px 6px;
+  /* margin: 0 1px 0 2px; */
+}
+.navlogo-container:focus {
+  outline: 3px solid #febd69;
+}
+.navlogo-container:hover {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+
+.navsearch {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  flex: 1 1 0;
+  column-gap: 0;
+  height: 60px;
+  font-size: 14px;
+  color: rgba(13, 13, 13, 0.653);
+  /* background-color: yellow; */
+  margin: 0 5px;
+}
+
+.navsearch select {
+  height: 40px;
+  width: 52px;
+  border-radius: 5px 0 0 5px;
+  background-color: #f3f3f3;
+  padding: 0 0 0 5px;
+  margin: 0;
+  border: none;
+  color: inherit;
+  text-transform: capitalize;
+}
+.navsearch select:focus {
+  color: #131921;
+}
+
+.navsearch__input {
+  display: flex;
+  flex: 1 1 0;
+  margin: 0;
+  height: 38px;
+  min-width: 347px;
+  border: none;
+  border-left: 1px solid #0c0f0f50;
+  font-size: 14px;
+  color: #131921;
+}
+.navsearch__input:focus {
+  border: none;
+  outline: none;
+}
+
+.navsearch__submit {
+  width: 45px;
+  height: 40px;
+  background-color: #ffc96b;
+  border: none;
+  padding: none;
+  border-radius: 0 5px 5px 0;
+  transition: all 0.4s linear;
+}
+.navsearch__submit:hover {
+  background-color: #ffbe4f;
+}
+
+.navtools {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 0;
+  height: inherit;
+  align-items: center;
+  color: white;
+  width: 327px;
+  /* background-color: yellow; */
+}
+
+.navtools div {
+  flex: 0;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.language {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  flex: 0;
+  min-width: 36px;
+  height: 40px;
+  padding: 0 10px 0 9px;
+  /* background-color: yellow; */
+}
+.language:hover {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.language:focus {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.language div {
+  display: inherit;
+  height: 80%;
+  align-items: flex-end;
+  /* background-color: blue; */
+}
+.language__flag {
+  object-fit: contain;
+  width: 24px;
+  height: 19px;
+  /* align-self: flex-end; */
+  clip: (10px, 68px, 40px, 1px);
+}
+
+.navlink__account {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 0;
+  align-items: center;
+  line-height: 15px;
+  width: 132px;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  /* background-color: rgb(110, 110, 13); */
+}
+.navlink__account:hover {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.navlink__account:focus {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.navlink__account__line1 {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+.navlink__account__line2 {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.orders {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  min-width: 57px;
+  height: 40px;
+  /* background-color: violet; */
+  line-height: 15px;
+  padding: 0 10px 0 10px;
+}
+.orders:hover {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.orders:focus {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.orders__line1 {
+  font-size: 12px;
+  white-space: nowrap;
+  margin: 0;
+}
+.orders__line2 {
+  font-size: 14px;
+  white-space: nowrap;
+  margin: 0;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 5px 0 5px;
+  /* background-color: #cccccc; */
+}
+.cart:hover {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+.cart:focus {
+  outline: 1px solid white;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 1005px) {
+  .header {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+.footer-temp {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 16px;
+  margin: 15px;
+}
+.footer-temp__title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+.footer-temp li {
+  width: 100%;
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  text-align: left;
+}
+.footer-temp__body {
+  max-width: 170px;
+  color: rgb(220, 220, 220);
+}

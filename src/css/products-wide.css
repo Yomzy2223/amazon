@@ -1,0 +1,33 @@
+.products-images-container {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-color: white;
+}
+.freq-purchased__products {
+  display: flex;
+  overflow: hidden;
+  scrollbar-width: thin;
+  transition: 0.5s all ease-in-out;
+  gap: 20px;
+}
+.freq-purchased__products:hover {
+  overflow-x: scroll;
+}
+.to-left,
+.to-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  height: 40%;
+  width: 45px;
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+}
+.to-right {
+  left: auto;
+  right: 0;
+}
